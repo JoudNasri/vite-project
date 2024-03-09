@@ -1,0 +1,93 @@
+.all-cards{
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+}
+.cards .photo{
+    max-width: 100%;
+}
+.cards2 .photo{
+    max-width: 100%;
+}
+.cards3 .photo{
+    max-width: 100%;
+}
+
+.cards, .cards2, .cards3 {
+    position: relative;
+    background-color: #F9F9F9;
+}
+.flag{
+    background-color: #F9F9F9;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 20px;
+    text-align: center;
+/*     transform: translate(70% , -60%); */
+}
+.flag-child {
+    margin-left: 7.5px;
+    margin-top: 8px;
+}
+.flag-child img{
+    margin-right: 6px;
+}
+.son{
+    margin: 7px 15px ;
+    color: #7D7D7D;
+}
+.son span{
+    margin: 9px;
+}
+.all-son{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.all-icons{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    margin: 8px 0px;
+}
+.all-icons .icons{
+    color: #FFBA0A;
+}
+.Switzerland h3{
+    font-size: 25px;
+    color: #2F2F2F;
+}
+.desc{
+    color: #5E6282;
+}
+.all-btn{
+    text-align: center;
+}
+.btn{
+    background-color: #DF6951;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0.7rem 2rem;
+    border-radius: 5px;
+    margin-top: 25px;
+    text-align: center;
+}
+@media screen and (max-width:992px) {
+    .all-cards{
+        flex-direction: column;
+    }
+    .all-desc{
+        max-width: 50%;
+        margin: 0px auto;
+    }
+}

@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    padding-top: 15vh;
+    width: 80vw;
+    margin: 0 auto;
+}
+.child-container h3{
+    color: #1E1D4C;
+}
+.child-container p{
+    color: #7D7D7D;
+    margin-top: 10px;
+}
+@media  screen and (max-width:992px) {
+    .container{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,18 @@
+.hero {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+.hero .matter {
+    color: #FFF;
+    font-family: Yesteryear;
+    font-size: 120px;
+    margin: 0 17%;
+}
+@media screen and (max-width:992px){
+    .hero .matter{
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,69 @@
+header{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 5vh 10vh;
+}
+.link{
+    color: #ffffffc7;
+    text-decoration: none;
+}
+ul a::after{
+    content: "";
+    background-color: #DF6951;
+    height: 3px;
+    width: 0px;
+    left: 0;
+    bottom: 50px;
+    margin: auto;
+    display: block;
+}
+ul a:hover{
+    color: whitesmoke;
+}
+ul a:hover::after{
+    width: 100%;
+    transition: 0.3s;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+nav ul li{
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+nav .btn{
+    background-color: #DF6951;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0.7rem 2rem;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #ec4827;
+}
+
+@media screen and (max-width:992px){
+    nav{
+        flex-direction: column;
+        width: 100%;
+    }
+    nav ul{
+        gap: 0.7rem;
+/*         width: 100%; */
+    }
+}

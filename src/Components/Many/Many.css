@@ -1,0 +1,72 @@
+.many {
+    margin-top: 15vh;
+}
+.jj{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.child-many {
+    width: 27vw;
+    background-color: #F5F3F3;
+    border-radius: 4px;
+}
+.child-many img{
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.child-many h3 {
+    color: #181E4B;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 10px 0px;
+    margin-left: 20px;
+}
+.child-many p{
+    margin-left: 20px;
+    color: #181E4B;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.all-span {
+    width: 23.6vw;
+    background-color: #DF6951;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #F5F3F3;
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+}
+.all-subtitles{
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+    gap: 40px;
+}
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.star{
+    color: #DF6951;
+}
+.star span{
+    color: #262626;
+    padding-top: 3px;
+    padding-left: 2px;
+}
+@media screen and (max-width:992px) {
+    .jj{
+        flex-direction: column;
+    }
+    .child-many{
+        width: 100%;
+    }
+}

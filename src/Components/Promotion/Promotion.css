@@ -1,0 +1,34 @@
+.all-dev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 17vh 30px;
+    gap: 40px;
+}
+.child-dev .para{
+    color: #DF6951;
+}
+.child-dev .pp{
+    color: #2F2F2F;
+    margin-top: 25px;
+}
+.child-dev h2{
+    color: #181E4B;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin-top: 10px;
+}
+@media screen and (max-width:992px){
+    .all-dev{
+        flex-direction: column;
+        text-align: center;
+    }
+    .phot img{
+        width: 100%;
+    }
+    .child-dev{
+        width: 100%;
+    }
+}

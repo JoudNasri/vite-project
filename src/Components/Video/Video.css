@@ -1,0 +1,46 @@
+.video .girl{
+    width: 100%;
+    position: absolute;
+}
+.play .play2{
+    cursor: pointer;
+}
+.play{
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20vh;
+    z-index: 1;
+}
+.Wanderlust{
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Wanderlust p{
+    font-family: 'Yesteryear', cursive;
+    color: #FFF;
+    font-size: 10rem;
+    font-weight: 400;
+}
+
+@media screen and (max-width:992px){
+    .Wanderlust p{
+        font-size: 3rem;
+    }
+    .play{
+        top: 5vh;
+        text-align: center;
+    }
+    .Wanderlust{
+        text-align: center;
+    }
+    .play .play2{
+        width: 10%;
+        top: 20%;
+    }
+}
